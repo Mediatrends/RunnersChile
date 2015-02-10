@@ -73,7 +73,7 @@
 			<div class="twitter-bar-bottom-shadow" ></div>
 		</div>
 
-		<script type="text/javascript">
+		<script async type="text/javascript">
 			jQuery(document).ready(function(){
 				var twitter_wrapper = jQuery('ul#gdl-twitter');
 				twitter_wrapper.each(function(){

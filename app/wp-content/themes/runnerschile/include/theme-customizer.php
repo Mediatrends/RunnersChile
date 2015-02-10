@@ -51,7 +51,7 @@
 	function gdl_customize_preview() {		
 		global $goodlayers_element, $goodlayers_menu;	
 	
-		echo '<script type="text/javascript">' . "\n";
+		echo '<script async type="text/javascript">' . "\n";
 		echo '(function($){' . "\n";
 		echo 'var cur_color;' . "\n";
 		echo 'var cur_bg_color;' . "\n";

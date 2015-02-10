@@ -14,42 +14,12 @@ module.exports = function(grunt){
 				},
 			},
 
-			sass:{
-				files:['prod/sass/**/*.scss'],
-				tasks: ['sass:deve'],
-				options:{
-					livereload:true,
-					spawn: false,
-				},
-			},
-
 			javascript:{
 				files:['prod/js/**/*.js','Gruntfile.js'],
 				tasks:['jshint','uglify:beauty'],
 				options:{
 					livereload:true,
 					spawn: false,
-				},
-			},
-		},
-
-		sass: {
-			deve: {
-				options: {
-					style: 'nested',
-					sourcemap:'none'
-				},
-				files: {
-					'app/wp-content/themes/runnerschile/css/main.min.css': 'prod/sass/main.scss'
-				},
-			},
-			dist: {
-				options: {
-					style: 'compressed',
-					sourcemap:'none'
-				},
-				files: {
-					'app/wp-content/themes/runnerschile/css/main.min.css': 'prod/sass/main.scss'
 				},
 			},
 		},
@@ -61,31 +31,35 @@ module.exports = function(grunt){
 		},
 
 		uglify:{
-			beauty:{
-				options:{
-					beautify:true
-				},
-				files:{
-			        'app/wp-content/themes/runnerschile/js/output.min.js': ['prod/js/script.js']
-			    }
-			},
 			all:{
-				files:{
-			        'app/wp-content/themes/runnerschile/js/output.min.js': ['prod/js/script.js']
-			    }
-			}
+				files: [{
+		            expand: true,
+		            src: '**/*.js',
+		            dest: 'prod/js01',
+		            cwd: 'prod/js'
+		        }]
+			},
 		},
 
 		imagemin:{
 			options: {
 				cache: false
 			},
-			dynamic: {                       // Another target
+			dynamic: {
 		      files: [{
-		        expand: true,                  // Enable dynamic expansion
-		        cwd: 'prod/img/',                   // Src matches are relative to this path
-		        src: ['**/*.{png,jpg,gif}'],   // Actual patterns to match
-		        dest: 'app/wp-content/themes/runnerschile/images/'                  // Destination path prefix
+		        expand: true,
+		        cwd: 'prod/img/',
+		        src: ['**/*.{png,jpg,gif}'],
+		        dest: 'app/wp-content/themes/runnerschile/images/'
+		      }]
+		    },
+		    dynamic2: {
+		      files: [{
+		      	optimizationLevel: 5,
+		        expand: true,
+		        cwd: 'prod/upload/',
+		        src: ['**/*.{png,jpg,gif}'],
+		        dest: 'prod/upload2/'
 		      }]
 		    },
 		},
@@ -109,6 +83,6 @@ module.exports = function(grunt){
 	grunt.loadNpmTasks('grunt-concurrent');
 
 	grunt.registerTask('dev', ['concurrent','watch']);
-	grunt.registerTask('default', ['uglify:all','imagemin','sass:dist']);
+	grunt.registerTask('default', [/*'uglify:all',*/'imagemin'/*,'sass:dist'*/	]);
 
 };

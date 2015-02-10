@@ -16,7 +16,7 @@
 		$right_click_text = get_option(THEME_SHORT_NAME.'_right_click_alert','');
 		
 		if( $enable_right_click == 'enable' ){
-			echo '<script type="text/javascript">';
+			echo '<script async type="text/javascript">';
 			echo 'jQuery(function() {';
 			echo 'jQuery(this).bind("contextmenu", function(e) {';
 			if( !empty($right_click_text) ){
@@ -36,7 +36,7 @@
 	function gdl_add_cufon() {
 		global $all_font;
 
-		echo '<script type="text/javascript">';
+		echo '<script async type="text/javascript">';
 		echo 'jQuery(document).ready(function(){';
 		
 		$used_font = substr(get_option(THEME_SHORT_NAME.'_header_font'), 2);
