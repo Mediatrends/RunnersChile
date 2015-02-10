@@ -1,0 +1,88 @@
+/*--- Main Menu ---*/
+#main-superfish-wrapper{ font-size: 14px; float: left; }
+ul.sf-menu ul.sub-menu{ border-bottom-width: 3px; border-bottom-style: solid; }
+
+div.main-navigation-wrapper, 
+.sf-menu li a{ background-image: url('../images/menu-gradient.png'); background-repeat: repeat-x; }
+
+div.main-navigation-wrapper{ background-position: 0px 1px; padding-top: 1px; }
+
+.sf-menu li a:hover,
+.sf-menu li.current-menu-ancestor a, 
+.sf-menu li.current-menu-item a, 
+.sf-menu li.current-post-ancestor a{ 
+	background-image: url('../images/menu-active-gradient.png'); background-repeat: repeat-x; 
+	box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
+	-moz-box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
+	-webkit-box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5); }
+
+ul.sf-menu, .sf-menu * { margin: 0; padding: 0; list-style: none; }
+ul.sf-menu { line-height: 1; }
+ul.sf-menu li{ padding: 0px; float: left; position: relative; }
+ul.sf-menu li:first-child{ padding-left: 0px; }
+ul.sf-menu li:last-child{ padding-right: 0px; }
+ul.sf-menu li:hover { visibility: inherit; } /* fixes IE7 'sticky bug' */
+ul.sf-menu li a { padding: 16px 20px; line-height: 24px; text-decoration:none; display: block; position: relative; text-transform: uppercase; }
+ul.sf-menu li a img { max-height: 24px; width: auto; display: block; }
+
+/*--- sub menu ---*/
+ul.sf-menu li:hover ul,
+ul.sf-menu li.sfHover ul { left: 0; z-index: 101; top: 55px; padding-top: 1px; }
+ul.sf-menu li.sfHover ul ul{ padding-top: 0; }
+
+ul.sf-menu ul { text-align: left; width: 11em; }
+ul.sf-menu ul { position: absolute; top: -999em; width: 10em; }/* left offset of submenus need to match (see below) */
+ul.sf-menu ul li { width: 100%; padding: 0px 0px; }
+
+ul.sf-menu li:hover li ul,
+ul.sf-menu li.sfHover li ul,
+ul.sf-menu li li:hover li ul,
+ul.sf-menu li li.sfHover li ul{ top: -999em; }
+
+ul.sf-menu li li:hover ul,
+ul.sf-menu li li.sfHover ul,
+ul.sf-menu li li li:hover ul,
+ul.sf-menu li li li.sfHover ul { left: 10em; top: -1px; } /* match ul width */
+
+ul.sf-menu li li:last-child{ border: 0px; }
+ul.sf-menu li li a{ line-height: auto; height: auto; padding: 0px 15px; 
+	background-image: none; }
+ul.sf-menu ul li a{ padding: 7px 15px; border-style: solid;
+	border-width: 0px; border-top-width: 0px; text-transform: none;  }
+
+/*--- Top Menu ---*/
+ul.top-menu, .top-menu * { margin: 0; padding: 0; list-style: none; }
+ul.top-menu { line-height: 1; }
+ul.top-menu li{ padding: 14px 0px; float: left; position: relative; }
+ul.top-menu li:hover { visibility: inherit; } /* fixes IE7 'sticky bug' */
+ul.top-menu li a { padding: 0px 15px; line-height: 16px; text-decoration:none; display: block; position: relative; 
+	border-left-width: 1px; border-left-style: solid; }
+ul.top-menu li:first-child a{ border-left: 0px; padding-left: 0px; }
+ul.top-menu li a img { max-height: 24px; width: auto; display: block; }
+
+/*--- sub menu ---*/
+ul.top-menu li:hover ul,
+ul.top-menu li.sfHover ul { left: 0; z-index: 101; top: 44px; 
+	border-top-width: 1px; border-top-style: solid; }
+ul.top-menu li.sfHover ul ul{ padding-top: 0; }
+
+ul.top-menu ul { text-align: left; width: 11em; }
+ul.top-menu ul { position: absolute; top: -999em; width: 10em; }/* left offset of submenus need to match (see below) */
+ul.top-menu ul li { width: 100%; padding: 0px 0px; }
+
+ul.top-menu li:hover li ul,
+ul.top-menu li.sfHover li ul,
+ul.top-menu li li:hover li ul,
+ul.top-menu li li.sfHover li ul{ top: -999em; }
+
+ul.top-menu li li:hover ul,
+ul.top-menu li li.sfHover ul,
+ul.top-menu li li li:hover ul,
+ul.top-menu li li li.sfHover ul { left: 10em; top: -1px; } /* match ul width */
+
+ul.top-menu li li:last-child{ border: 0px; }
+ul.top-menu li:first-child ul li a{ padding: 7px 15px; }
+ul.top-menu li ul li:first-child  a{ padding: 7px 15px; }
+ul.top-menu li ul li a{ padding: 7px 15px; border-left: 0px; line-height: auto; height: auto;
+	border-style: solid; border-bottom-width: 1px; border-top-width: 1px; text-transform: none; }
+	

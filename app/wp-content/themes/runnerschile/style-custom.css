@@ -1,0 +1,229 @@
+.top-navigation-wrapper, .top-navigation-wrapper a{ color: #ffffff; } 
+.top-navigation-wrapper{ background-color: #000000; } 
+.top-navigation-left a{ color: #ffffff; } 
+.top-menu li a:hover, .top-menu li.current-menu-ancestor a, .top-menu li.current-menu-item a, .top-menu li.current-post-ancestor a{ color: #dddddd; } 
+.top-navigation-left a{ border-color: #ffffff; } 
+ul.top-menu li.sfHover ul{ border-color: #b6b6b6; } 
+ul.top-menu li ul li a{ border-bottom-color: #000000; } 
+ul.top-menu li ul li a{ border-top-color: #383838; } 
+ul.top-menu li li a, ul.top-menu li.current-menu-item li a, ul.top-menu li.current-menu-ancestor li a, ul.top-menu li li.current-menu-item li a, ul.top-menu li li.current-menu-ancestor li a, ul.top-menu li.current-post-ancestor li a{ color: #bcbcbc; } 
+ul.top-menu li li a:hover, ul.top-menu li li.current-menu-item li a:hover, .top-menu li li.current-menu-ancestor li a:hover, ul.top-menu li li.current-menu-item a, ul.top-menu li li.current-menu-ancestor a, ul.top-menu li li.current-menu-ancestor li.current-menu-item a, ul.top-menu li li.current-post-ancestor a{ color: #ffffff; } 
+ul.top-menu ul{ background-color: #282828; } 
+div.top-search-wrapper input[type="submit"]{ border-color: #bababa; } 
+div.top-search-wrapper input[type="text"]{ color: #a3a3a3; } 
+div.top-search-wrapper input[type="text"]{ background-color: #303030; } 
+div.header-top-marquee{ background-color: #333333; } 
+div.header-top-marquee .marquee-head{ color: #ffffff; } 
+div.header-top-marquee .marquee-wrapper a{ color: #c7c7c7; } 
+div.header-top-marquee{ border-color: #d10000; } 
+.gdl-navigation-wrapper, .main-navigation-wrapper, .sf-menu li a{ background-color: #000000; } 
+.sf-menu li a:hover{ background-color: #cf2121; } 
+.sf-menu li.current-menu-ancestor a, .sf-menu li.current-menu-item a, .sf-menu li.current-post-ancestor a{ background-color: #cf2121; } 
+.sf-menu li a, div.random-post a{ color: #ffffff; } 
+.sf-menu li a:hover{ color: #ffffff; } 
+.sf-menu li.current-menu-ancestor a, .sf-menu li.current-menu-item a, .sf-menu li.current-post-ancestor a{ color: #ffffff; } 
+ul.sf-menu ul.sub-menu{ border-bottom-color: #ce2121; } 
+ul.sf-menu li li a, ul.sf-menu li.current-menu-item li a, ul.sf-menu li.current-menu-ancestor li a, ul.sf-menu li li.current-menu-item li a, ul.sf-menu li li.current-menu-ancestor li a, ul.sf-menu li.current-post-ancestor li a{ color: #c1c1c1; } 
+ul.sf-menu li li a, ul.sf-menu li.current-menu-item li a, ul.sf-menu li.current-menu-ancestor li a, ul.sf-menu li li.current-menu-item li a, ul.sf-menu li li.current-menu-ancestor li a, ul.sf-menu li.current-post-ancestor li a{ background-color: #232323; } 
+ul.sf-menu li li a:hover, ul.sf-menu li li.current-menu-item li a:hover, .sf-menu li li.current-menu-ancestor li a:hover{ color: #f2f2f2; } 
+ul.sf-menu li li a:hover, ul.sf-menu li li.current-menu-item li a:hover, .sf-menu li li.current-menu-ancestor li a:hover{ background-color: #cf2121; } 
+ul.sf-menu li li.current-menu-item a, ul.sf-menu li li.current-menu-ancestor a, ul.sf-menu li li.current-menu-ancestor li.current-menu-item a, ul.sf-menu li li.current-post-ancestor a{ color: #f2f2f2; } 
+ul.sf-menu li li.current-menu-item a, ul.sf-menu li li.current-menu-ancestor a, ul.sf-menu li li.current-menu-ancestor li.current-menu-item a, ul.sf-menu li li.current-post-ancestor a{ background-color: #cf2121; } 
+div.header-wrapper{ background-color: #ab1b1b; } 
+h1.page-header-title{ color: #cf2121; } 
+div.page-header-caption{ color: #999999; } 
+div.page-header-inner-wrapper{ border-color: #313131; } 
+h3.gdl-header-title{ color: #cf2121; } 
+div.gdl-header-wrapper, div.comment-wrapper .comment-title, div.comment-wrapper #reply-title, .gdl-item-border{ border-color: #313131; } 
+div.gdl-header-wrapper .icon-double-angle-right{ color: #313131; } 
+h1, h2, h3, h4, h5, h6{ color: #111111; } 
+body{ color: #505050; } 
+html{ background-color: #404040; } 
+.container.main, .gdl-container-color{ background-color: #ffffff; } 
+a{ color: #ce2121; } 
+a:hover{ color: #ce7777; } 
+::selection, ::-moz-selection{ color: #ffffff; } 
+::selection, ::-moz-selection{ background-color: #4f4f4f; } 
+.sidebar-wrapper a{ color: #1f1f1f; } 
+.sidebar-wrapper a:hover{ color: #9c9c9c; } 
+.custom-sidebar-title, .custom-sidebar-title a{ color: #cf2121; } 
+div.custom-sidebar-title-wrapper, div.gdl-tab-widget-header-wrapper{ border-color: #313131; } 
+div.gdl-sidebar-wrapper .icon-double-angle-right{ color: #313131; } 
+.sidebar-wrapper .recent-post-widget-info, .sidebar-wrapper .recent-post-widget-info a, .sidebar-wrapper .full-post-widget-info, .sidebar-wrapper .full-post-widget-info a, .sidebar-wrapper #twitter_update_list, div.recent-comment-widget .recent-comment-widget-date{ color: #9b9b9b; } 
+div.gdl-tab-widget-header-wrapper a{ color: #a7a7a7; } 
+div.gdl-tab-widget-header-wrapper a.active, div.gdl-tab-widget-header-wrapper a:hover{ color: #cf2121; } 
+div.recent-port-widget .recent-port-widget-thumbnail, div.recent-post-widget .recent-post-widget-thumbnail, div.custom-sidebar .flickr_badge_image{ background-color: #eeeeee; } 
+div.gdl-social-counter-widget{ background-color: #f5f5f5; } 
+div.gdl-social-counter-widget span.count{ color: #cf2121; } 
+div.gdl-social-counter-widget span.title{ color: #606060; } 
+.tagcloud a, .tagcloud a:hover{ color: #ffffff; } 
+.tagcloud a{ background-color: #cf2121; } 
+div.footer-twitter-wrapper{ background-color: #cf2121; } 
+div.footer-twitter-wrapper, div.footer-twitter-wrapper a{ color: #ffffff; } 
+.footer-wrapper a{ color: #efefef; } 
+.footer-wrapper a:hover{ color: #aaaaaa; } 
+.footer-wrapper .custom-sidebar-title, .footer-wrapper .custom-sidebar-title a{ color: #ffffff; } 
+.footer-wrapper, .footer-wrapper table th{ color: #919191; } 
+.footer-wrapper .recent-post-widget-info, .footer-wrapper #twitter_update_list{ color: #7f7f7f; } 
+div.footer-wrapper{ background-color: #0b0b0b; } 
+div.footer-wrapper *{ border-color: #353535; } 
+div.footer-wrapper div.contact-form-wrapper input[type="text"], div.footer-wrapper div.contact-form-wrapper input[type="password"], div.footer-wrapper div.contact-form-wrapper textarea, div.footer-wrapper div.custom-sidebar #search-text input[type="text"]{ color: #848484; } 
+div.footer-wrapper div.contact-form-wrapper input[type="text"], div.footer-wrapper div.contact-form-wrapper input[type="password"], div.footer-wrapper div.contact-form-wrapper textarea, div.footer-wrapper div.custom-sidebar #search-text input[type="text"]{ background-color: #282828; } 
+div.footer-wrapper div.contact-form-wrapper input[type="text"], div.footer-wrapper div.contact-form-wrapper input[type="password"], div.footer-wrapper div.contact-form-wrapper textarea, div.footer-wrapper div.custom-sidebar #search-text input[type="text"]{ border-color: #3f3f3f; } 
+.footer-wrapper .contact-form-wrapper button{ color: #ffffff; } 
+.footer-wrapper .contact-form-wrapper button{ background-color: #ce2121; } 
+div.footer-wrapper .personnal-widget-item .personnal-widget-info{ color: #dbdbdb; } 
+div.footer-wrapper .tagcloud a, div.footer-wrapper .tagcloud a:hover{ color: #ffffff; } 
+div.footer-wrapper .tagcloud a{ background-color: #cf2121; } 
+div.footer-wrapper div.recent-port-widget .recent-port-widget-thumbnail, div.footer-wrapper div.recent-post-widget .recent-post-widget-thumbnail,div.footer-wrapper .custom-sidebar .flickr_badge_image{ background-color: #3a3a3a; } 
+div.footer-wrapper div.gdl-tab-widget-header-wrapper a{ color: #a7a7a7; } 
+div.footer-wrapper div.gdl-tab-widget-header-wrapper a.active, div.footer-wrapper div.gdl-tab-widget-header-wrapper a:hover{ color: #cf2121; } 
+div.footer-wrapper .copyright-border{ border-top-color: #2b2b2b; } 
+.copyright-wrapper{ color: #999999; } 
+div.copyright-scroll-top{ background-color: #4b4b4b; } 
+div.gdl-top-slider-wrapper{ border-color: #e8e8e8; } 
+.ls-maxima .ls-nav-prev, .ls-maxima .ls-nav-next,div.gdl-top-slider .flex-direction-nav li .flex-prev, div.gdl-top-slider .flex-direction-nav li .flex-next,div.gdl-top-slider .nivo-directionNav a.nivo-prevNav, div.gdl-top-slider .nivo-directionNav a.nivo-nextNav{ background-color: #cf2121; } 
+.ls-maxima .ls-nav-prev:hover, .ls-maxima .ls-nav-next:hover, div.gdl-top-slider .flex-direction-nav li .flex-prev:hover, div.gdl-top-slider .flex-direction-nav li .flex-next:hover, div.gdl-top-slider .nivo-directionNav a.nivo-prevNav:hover, div.gdl-top-slider .nivo-directionNav a.nivo-nextNav:hover{ background-color: #930000; } 
+h2.gdl-slider-title{ color: #ffffff; } 
+div.gdl-slider-caption{ color: #bbbbbb; } 
+.ls-maxima .ls-bottom-slidebuttons a, .flex-control-nav li a, .nivo-controlNav a, div.anythingSlider .anythingControls ul a{ background-color: #ffffff; } 
+.ls-maxima .ls-bottom-slidebuttons a.ls-nav-active, .ls-maxima .ls-bottom-slidebuttons a:hover.flex-control-nav li a:hover, .flex-control-nav li a.flex-active, .nivo-controlNav a:hover, .nivo-controlNav a.active, div.anythingSlider .anythingControls ul a.cur, div.anythingSlider .anythingControls ul a:hover { background: #bbbbbb; } 
+h1.stunning-text-title{ color: #cf2121; } 
+.stunning-text-caption{ color: #7a7a7a; } 
+.stunning-text-inner-wrapper{ background-color: #efefef; } 
+div.gdl-blog-full .blog-title a, div.gdl-related-post .blog-title a{ color: #c33030; } 
+div.gdl-blog-full .blog-title a:hover, div.gdl-related-post .blog-title a:hover{ color: #c33030; } 
+h2.blog-title a, h1.blog-title a, div.portfolio-item .page-item-title a{ color: #1f1f1f; } 
+h2.blog-title a:hover, h1.blog-title a:hover, div.portfolio-item .page-item-title a:hover{ color: #9c9c9c; } 
+div.blog-info-wrapper, div.blog-info-wrapper a{ color: #9b9b9b; } 
+div.gdl-blog-list{ background-color: #f3f3f3; } 
+div.blog-media-wrapper .blog-comment, div.full-post-widget .blog-comment,div.post-slider-comment{ background-color: #cf2121; } 
+div.blog-media-wrapper .blog-comment, div.blog-media-wrapper .blog-comment a, div.full-post-widget .blog-comment, div.full-post-widget .blog-comment a, div.post-slider-comment{ color: #ffffff; } 
+.about-author-wrapper{ background-color: #f5f5f5; } 
+div.gdl-pagination a{ background-color: #f5f5f5; } 
+div.gdl-pagination a{ color: #7b7b7b; } 
+div.gdl-pagination a:hover{ background-color: #cf2121; } 
+div.gdl-pagination a:hover{ color: #ffffff; } 
+div.gdl-pagination span{ background-color: #cf2121; } 
+div.gdl-pagination span{ color: #ffffff; } 
+div.portfolio-media-wrapper span.portfolio-thumbnail-image-hover{ background-color: #000000; } 
+.portfolio-item .portfolio-title a{ color: #2d2d2d; } 
+.portfolio-item .portfolio-tag a, .portfolio-item .portfolio-tag{ color: #aaaaaa; } 
+.portfolio-item .port-bottom-border{ background-color: #cf2121; } 
+.portfolio-item:hover .portfolio-context .portfolio-tag, .portfolio-item:hover .portfolio-context, .portfolio-item:hover .portfolio-context a{ color: #ffffff; } 
+ul.portfolio-item-filter li a{ color: #111111; } 
+ul.portfolio-item-filter li a.active, ul.portfolio-item-filter li a:hover, ul.portfolio-item-filter li span{ color: #cf2121; } 
+div.single-portfolio .port-info{ color: #7a7a7a; } 
+div.single-portfolio .port-info .head{ color: #404040; } 
+div.portfolio-carousel-wrapper .port-nav, div.portfolio-carousel-description .port-nav, div.single-portfolio .port-nav a, div.blog-carousel-wrapper .blog-nav, div.gdl-carousel-testimonial .testimonial-navigation a{ background-color: #f6f6f6; } 
+div.price-item-inner-wrapper{ background-color: #f9f9f9; } 
+div.price-item .price-title-wrapper{ color: #ffffff; } 
+div.price-item .price-title-wrapper{ background-color: #454545; } 
+div.price-item .price-tag{ color: #ffffff; } 
+div.price-item .price-tag{ background-color: #838383; } 
+div.best-price .price-tag{ color: #ffffff; } 
+div.best-price .price-tag{ background-color: #ce2121; } 
+div.price-item{ color: #5e5e5e; } 
+div.price-button-wrapper .gdl-button{ background-color: #ce2121; } 
+div.price-button-wrapper .gdl-button{ color: #ffffff; } 
+div.personnal-item{ background-color: #f9f9f9; } 
+div.personnal-item .personnal-position{ color: #9d9d9d; } 
+div.personnal-item .personnal-title{ color: #353535; } 
+div.personnal-item .personnal-content{ color: #838383; } 
+div.personnal-widget-item .personnal-widget-info{ color: #4a4a4a; } 
+ul.gdl-accordion li .accordion-title, ul.gdl-toggle-box li .toggle-box-title{ color: #363636; } 
+ul.gdl-accordion li, ul.gdl-toggle-box li{ background-color: #ffffff; } 
+ul.gdl-accordion li, ul.gdl-toggle-box li, div.gdl-carousel-testimonial .testimonial-content{ border-color: #f5f5f5; } 
+blockquote{ color: #ababab; } 
+body blockquote{ border-color: #cfcfcf; } 
+a.gdl-button, body button, input[type="submit"], input[type="reset"], input[type="button"]{ background-color: #ce2121; } 
+a.gdl-button, body button, input[type="submit"], input[type="reset"], input[type="button"]{ color: #ffffff; } 
+body *{ border-color: #e6e6e6; } 
+.scroll-top{ color: #919191; } 
+div.progress-bar-wrapper .progress-bar{ background-color: #ce2121; } 
+div.progress-bar-wrapper{ background-color: #f0f0f0; } 
+div.progress-bar-wrapper{ color: #ffffff; } 
+table, table tr, table tr td, table tr th{ border-color: #e5e5e5; } 
+table th{ color: #666666; } 
+table th{ background-color: #fdfdfd; } 
+div.gdl-tab ul.gdl-tab-content, div.gdl-tab ul.gdl-tab-title a.active{ background-color: #ffffff; } 
+div.gdl-tab ul.gdl-tab-content{ color: #707070; } 
+div.gdl-tab ul.gdl-tab-title a.active{ color: #575757; } 
+div.gdl-tab ul.gdl-tab-title li a.active{ border-top-color: #ce2121; } 
+div.gdl-tab ul.gdl-tab-title a{ color: #959595; } 
+div.gdl-tab ul.gdl-tab-title a{ background-color: #fafafa; } 
+div.gdl-carousel-testimonial .testimonial-content{ color: #9d9d9d; } 
+div.gdl-carousel-testimonial .testimonial-info{ color: #656565; } 
+div.gdl-carousel-testimonial .testimonial-content{ background-color: #ffffff; } 
+div.gdl-static-testimonial .testimonial-item{ color: #afafaf; } 
+div.gdl-static-testimonial .testimonial-item{ border-color: #efefef; } 
+div.gdl-static-testimonial .testimonial-info{ color: #848484; } 
+html{ background-image: url(http://local.mediatrends/_Montana-Stusio/sitios/_Runnerschile/htdocs/app/wp-content/themes/runnerschile/images/pattern/pattern-15.png); } 
+.logo-wrapper{ padding-top: 42px; padding-bottom: 42px; } 
+.header-right-banner-wrapper{ margin-top: 35px; } 
+h1.gdl-header-title{ font-size: 21px; } 
+body{ font-size: 13px; } 
+h3.custom-sidebar-title, h3.gdl-header-title{ font-size: 18px; } 
+h1{ font-size: 30px; } 
+h2{ font-size: 25px; } 
+h3{ font-size: 20px; } 
+h4{ font-size: 18px; } 
+h5{ font-size: 16px; } 
+h6{ font-size: 15px; } 
+h1, h2, h3, h4, h5, h6, div.page-header-caption, div.gdl-social-counter-widget span.count, div.price-item .price-title, div.price-item .price-tag, .portfolio-item-filter { font-family: "Oswald"; } 
+.gdl-slider-title{ font-family: "Oswald"; } 
+div.main-navigation-wrapper{ font-family: "Oswald"; } 
+div.top-search-wrapper input[type='submit']{ background: url(http://local.mediatrends/_Montana-Stusio/sitios/_Runnerschile/htdocs/app/wp-content/themes/runnerschile/images/icon/light/top-search.png) no-repeat right center;; } 
+@media only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+div.top-search-wrapper input[type='submit']{ background: url(http://local.mediatrends/_Montana-Stusio/sitios/_Runnerschile/htdocs/app/wp-content/themes/runnerschile/images/icon/light/top-search@2x.png) no-repeat left center;; } 
+}
+div.header-top-marquee .marquee-wrapper .marquee div{ background: url(http://local.mediatrends/_Montana-Stusio/sitios/_Runnerschile/htdocs/app/wp-content/themes/runnerschile/images/icon/light/personnal-widget-right.png) no-repeat 0px center;; } 
+div.header-top-marquee .marquee-head{ background-image: url(http://local.mediatrends/_Montana-Stusio/sitios/_Runnerschile/htdocs/app/wp-content/themes/runnerschile/images/icon/light/breaking-news-head.png);; } 
+.blog-info-wrapper i, div.gdl-blog-list .blog-comment a{ color: #3b3b3b; }
+div.personnal-widget-prev{ background-image: url(http://local.mediatrends/_Montana-Stusio/sitios/_Runnerschile/htdocs/app/wp-content/themes/runnerschile/images/icon/dark/personnal-widget-left.png); } 
+div.personnal-widget-next{ background-image: url(http://local.mediatrends/_Montana-Stusio/sitios/_Runnerschile/htdocs/app/wp-content/themes/runnerschile/images/icon/dark/personnal-widget-right.png); } 
+div.gdl-search-button, div.custom-sidebar #searchsubmit{ background: url(http://local.mediatrends/_Montana-Stusio/sitios/_Runnerschile/htdocs/app/wp-content/themes/runnerschile/images/icon/dark/search-button.png) no-repeat center; } 
+div.custom-sidebar ul li{ background: url(http://local.mediatrends/_Montana-Stusio/sitios/_Runnerschile/htdocs/app/wp-content/themes/runnerschile/images/icon/dark/li-arrow.png) no-repeat 0px center; } 
+ul.gdl-accordion li, ul.gdl-toggle-box li, div.gdl-carousel-testimonial .testimonial-content{ background-image: url(http://local.mediatrends/_Montana-Stusio/sitios/_Runnerschile/htdocs/app/wp-content/themes/runnerschile/images/icon/dark/accordion-background.png); } 
+li.active span.accordion-icon, li.active span.toggle-box-icon{ background-image: url(http://local.mediatrends/_Montana-Stusio/sitios/_Runnerschile/htdocs/app/wp-content/themes/runnerschile/images/icon/dark/accordion-title-active.png); } 
+span.accordion-icon, span.toggle-box-icon{ background-image: url(http://local.mediatrends/_Montana-Stusio/sitios/_Runnerschile/htdocs/app/wp-content/themes/runnerschile/images/icon/dark/accordion-title.png); } 
+div.gdl-carousel-testimonial .testimonial-icon{ background-image: url(http://local.mediatrends/_Montana-Stusio/sitios/_Runnerschile/htdocs/app/wp-content/themes/runnerschile/images/icon/dark/testimonial-quote.png); } 
+div.blog-carousel-wrapper .blog-nav.left, div.portfolio-carousel-wrapper .port-nav.left, div.portfolio-carousel-description .port-nav.left, .testimonial-navigation .testimonial-prev, div.single-portfolio .port-prev-nav a{ background-image: url(http://local.mediatrends/_Montana-Stusio/sitios/_Runnerschile/htdocs/app/wp-content/themes/runnerschile/images/icon/dark/nav-left.png); } 
+div.blog-carousel-wrapper .blog-nav.right, div.portfolio-carousel-wrapper .port-nav.right, div.portfolio-carousel-description .port-nav.right, .testimonial-navigation .testimonial-next, div.single-portfolio .port-next-nav a{ background-image: url(http://local.mediatrends/_Montana-Stusio/sitios/_Runnerschile/htdocs/app/wp-content/themes/runnerschile/images/icon/dark/nav-right.png); } 
+@media only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+li.active span.accordion-icon, li.active span.toggle-box-icon{ background-image: url(http://local.mediatrends/_Montana-Stusio/sitios/_Runnerschile/htdocs/app/wp-content/themes/runnerschile/images/icon/dark/accordion-title-active@2x.png); } 
+span.accordion-icon, span.toggle-box-icon{ background-image: url(http://local.mediatrends/_Montana-Stusio/sitios/_Runnerschile/htdocs/app/wp-content/themes/runnerschile/images/icon/dark/accordion-title@2x.png); } 
+div.gdl-carousel-testimonial .testimonial-icon{ background-image: url(http://local.mediatrends/_Montana-Stusio/sitios/_Runnerschile/htdocs/app/wp-content/themes/runnerschile/images/icon/dark/testimonial-quote@2x.png); } 
+div.blog-carousel-wrapper .blog-nav.left, div.portfolio-carousel-wrapper .port-nav.left, div.portfolio-carousel-description .port-nav.left, .testimonial-navigation .testimonial-prev, div.single-portfolio .port-prev-nav a{ background-image: url(http://local.mediatrends/_Montana-Stusio/sitios/_Runnerschile/htdocs/app/wp-content/themes/runnerschile/images/icon/dark/nav-left@2x.png); } 
+div.blog-carousel-wrapper .blog-nav.right, div.portfolio-carousel-wrapper .port-nav.right, div.portfolio-carousel-description .port-nav.right, .testimonial-navigation .testimonial-next, div.single-portfolio .port-next-nav a{ background-image: url(http://local.mediatrends/_Montana-Stusio/sitios/_Runnerschile/htdocs/app/wp-content/themes/runnerschile/images/icon/dark/nav-right@2x.png); } 
+}
+div.footer-wrapper div.custom-sidebar ul li{ background: url(http://local.mediatrends/_Montana-Stusio/sitios/_Runnerschile/htdocs/app/wp-content/themes/runnerschile/images/icon/light/li-arrow.png) no-repeat 0px center; } 
+div.footer-wrapper div.custom-sidebar #searchsubmit{ background: url(http://local.mediatrends/_Montana-Stusio/sitios/_Runnerschile/htdocs/app/wp-content/themes/runnerschile/images/icon/light/search-button.png) no-repeat center; } 
+div.footer-wrapper div.personnal-widget-prev{ background-image: url(http://local.mediatrends/_Montana-Stusio/sitios/_Runnerschile/htdocs/app/wp-content/themes/runnerschile/images/icon/light/personnal-widget-left.png); } 
+div.footer-wrapper div.personnal-widget-next{ background-image: url(http://local.mediatrends/_Montana-Stusio/sitios/_Runnerschile/htdocs/app/wp-content/themes/runnerschile/images/icon/light/personnal-widget-right.png); } 
+div.footer-gallery-nav-left{ background-image: url(http://local.mediatrends/_Montana-Stusio/sitios/_Runnerschile/htdocs/app/wp-content/themes/runnerschile/images/icon/light/nav-left.png); } 
+div.footer-gallery-nav-right{ background-image: url(http://local.mediatrends/_Montana-Stusio/sitios/_Runnerschile/htdocs/app/wp-content/themes/runnerschile/images/icon/light/nav-right.png); } 
+div.gdl-twitter-navigation a.prev{ background-image: url(http://local.mediatrends/_Montana-Stusio/sitios/_Runnerschile/htdocs/app/wp-content/themes/runnerschile/images/icon/light/nav-left.png); } 
+div.gdl-twitter-navigation a.next{ background-image: url(http://local.mediatrends/_Montana-Stusio/sitios/_Runnerschile/htdocs/app/wp-content/themes/runnerschile/images/icon/light/nav-right.png); } 
+@media only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+div.gdl-twitter-navigation a.prev{ background-image: url(http://local.mediatrends/_Montana-Stusio/sitios/_Runnerschile/htdocs/app/wp-content/themes/runnerschile/images/icon/light/nav-left@2x.png); } 
+div.gdl-twitter-navigation a.next{ background-image: url(http://local.mediatrends/_Montana-Stusio/sitios/_Runnerschile/htdocs/app/wp-content/themes/runnerschile/images/icon/light/nav-right@2x.png); } 
+}
+.flex-carousel .flex-direction-nav li a.flex-prev{ background: url(http://local.mediatrends/_Montana-Stusio/sitios/_Runnerschile/htdocs/app/wp-content/themes/runnerschile/images/icon/light/carousel-nav-left.png) no-repeat; } 
+.flex-carousel .flex-direction-nav li a.flex-next{ background: url(http://local.mediatrends/_Montana-Stusio/sitios/_Runnerschile/htdocs/app/wp-content/themes/runnerschile/images/icon/light/carousel-nav-right.png) no-repeat; } 
+div.contact-form-wrapper input[type="text"], div.contact-form-wrapper input[type="password"], div.contact-form-wrapper textarea, div.sidebar-wrapper #search-text input[type="text"], div.sidebar-wrapper .contact-widget input, div.custom-sidebar .contact-widget textarea, div.comment-wrapper input[type="text"], div.comment-wrapper input[type="password"], div.comment-wrapper textarea{ color: #888888; background-color: #ffffff; border-color: #e3e3e3; -webkit-box-shadow: #ececec 0px 1px 4px inset, #f7f7f7 -5px -5px 0px 0px, #f7f7f7 5px 5px 0px 0px, #f7f7f7 5px 0px 0px 0px, #f7f7f7 0px 5px 0px 0px, #f7f7f7 5px -5px 0px 0px, #f7f7f7 -5px 5px 0px 0px ; box-shadow: #ececec 0px 1px 4px inset, #f7f7f7 -5px -5px 0px 0px, #f7f7f7 5px 5px 0px 0px, #f7f7f7 5px 0px 0px 0px, #f7f7f7 0px 5px 0px 0px, #f7f7f7 5px -5px 0px 0px, #f7f7f7 -5px 5px 0px 0px ; } 
+
+div.port-nav-wrapper a.view-all-projects i{ color: #dddddd; }
+div.stunning-text-wrapper .stunning-text-button-mobile, 
+div.stunning-text-wrapper .stunning-text-button-wrapper{ 
+background: #f16337; 
+}
+.gdl-button, button, input[type="submit"], input[type="reset"], input[type="button"]{ 
+border-color: #a51a1a;
+}
+div.price-button-wrapper .gdl-button{ 
+border-color: #a51a1a;
+}
