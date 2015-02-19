@@ -7,7 +7,7 @@ module.exports = function(grunt){
 
 		watch:{
 			configFiles:{
-				files:['prod/sass/**/*.scss','prod/js/**/*.js','app/wp-content/themes/runnerschile/**/*.php'],
+				files:['prod/js/**/*.js','app/wp-content/themes/runnerschile/**/*.php'],
 				options:{
 					livereload: true,
 					spawn: false,
@@ -41,6 +41,17 @@ module.exports = function(grunt){
 			},
 		},
 
+		cssmin: {
+		  target: {
+		    files: [{
+		      expand: true,
+		      cwd: 'prod/css',
+		      src: ['**/*.css'],
+		      dest: 'prod/stylesheet'
+		    }]
+		  }
+		},
+
 		imagemin:{
 			options: {
 				cache: false
@@ -57,16 +68,16 @@ module.exports = function(grunt){
 		      files: [{
 		      	optimizationLevel: 5,
 		        expand: true,
-		        cwd: 'prod/upload/',
+		        cwd: 'app/wp-content/_uploads/',
 		        src: ['**/*.{png,jpg,gif}'],
-		        dest: 'prod/upload2/'
+		        dest: 'prod/uploads/'
 		      }]
 		    },
 		},
 
 	    concurrent: {
 	        target: {
-	        	tasks:['sass','jshint','uglify'],
+	        	tasks:['cssmin','jshint','uglify'],
 		    	options: {
 	                logConcurrentOutput: true
 	            },
@@ -76,13 +87,13 @@ module.exports = function(grunt){
 	});
 
 	grunt.loadNpmTasks('grunt-contrib-watch');
-	grunt.loadNpmTasks('grunt-contrib-sass');
+	grunt.loadNpmTasks('grunt-contrib-cssmin');
 	grunt.loadNpmTasks('grunt-contrib-jshint');
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-contrib-imagemin');
 	grunt.loadNpmTasks('grunt-concurrent');
 
 	grunt.registerTask('dev', ['concurrent','watch']);
-	grunt.registerTask('default', [/*'uglify:all',*/'imagemin'/*,'sass:dist'*/	]);
+	grunt.registerTask('default', ['imagemin','cssmin']);
 
 };

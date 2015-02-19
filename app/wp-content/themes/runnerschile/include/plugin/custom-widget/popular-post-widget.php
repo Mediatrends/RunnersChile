@@ -78,12 +78,12 @@ class Popular_Post extends WP_Widget {
 							<?php 
 								$comments_num = get_comments_number( $custom_post->ID ); 
 								if( $comments_num > 1 ){ 
-									$output = str_replace( '%', number_format_i18n($comments_num), __('% Comments','gdl_front_end') ); 
+									$output = str_replace( '%', number_format_i18n($comments_num), __('% Comentarios','gdl_front_end') ); 
 									echo $output; 
 								}else if( $comments_num == 1 ){ 
-									_e('1 Comment','gdl_front_end'); 
+									_e('1 Comentario','gdl_front_end'); 
 								}else{ 
-									_e('No Responses.','gdl_front_end'); 
+									_e('No hay respuestas.','gdl_front_end'); 
 								}	
 							?>							
 						</div>

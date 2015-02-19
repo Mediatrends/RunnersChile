@@ -36,11 +36,11 @@ class Goodlayers_news_widget extends WP_Widget {
 		echo $before_widget;
 			
 		$query_arrays = array(
-			array('id'=>'gdl-widget-latest-post', 'title'=> __('RECENT','gdl_front_end'), 'type'=>'post',
+			array('id'=>'gdl-widget-latest-post', 'title'=> __('RECIENTES','gdl_front_end'), 'type'=>'post',
 				'condition'=>'showposts=' . $num_fetch . '&category_name=' . $category),
-			array('id'=>'gdl-widget-popular-post', 'title'=> __('POPULAR','gdl_front_end'), 'type'=>'post',
+			array('id'=>'gdl-widget-popular-post', 'title'=> __('POPULARES','gdl_front_end'), 'type'=>'post',
 				'condition'=>'showposts=' . $num_fetch . '&category_name=' . $category . '&orderby=comment_count'),	
-			array('id'=>'gdl-widget-latest-comment', 'title'=> __('COMMENTS','gdl_front_end'), 'type'=>'comment' )
+			array('id'=>'gdl-widget-latest-comment', 'title'=> __('COMENTARIOS','gdl_front_end'), 'type'=>'comment' )
 		);
 		
 		echo '<div class="gdl-tab-widget-wrapper">';

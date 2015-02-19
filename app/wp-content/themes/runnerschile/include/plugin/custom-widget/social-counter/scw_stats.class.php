@@ -65,7 +65,7 @@ class SubscriberStats{
             <a class="social-counter-widget facebook" href="http://twitter.com/<?php echo $this->services['twitterName']?>" target="_blank">
             	<span class="icon"><img class="gdl-no-preload" src="<?php echo GOODLAYERS_PATH . '/images/icon/' . $gdl_icon_type . '/social-widget-twitter.png'; ?>" alt="" /></span>
 				<span class="count"><?php echo number_format($this->twitter); ?></span>
-                <span class="title"><?php _e('Followers', 'gdl_front_end'); ?></span>   
+                <span class="title"><?php _e('Seguidores', 'gdl_front_end'); ?></span>   
             </a>
             <?php } ?>
 			
@@ -81,7 +81,7 @@ class SubscriberStats{
         	<a class="social-counter-widget rss" href="<?php echo $this->services['feedBurnerURL']; ?>" target="_blank">
             	<span class="icon"><img class="gdl-no-preload" src="<?php echo GOODLAYERS_PATH . '/images/icon/' . $gdl_icon_type . '/social-widget-rss.png'; ?>" alt="" /></span>
 				<span class="count"><?php _e('RSS', 'gdl_front_end'); ?></span>
-                <span class="title"><?php _e('Subscribers', 'gdl_front_end'); ?></span>
+                <span class="title"><?php _e('Suscriptores', 'gdl_front_end'); ?></span>
             </a>
             <?php } ?>
 			
